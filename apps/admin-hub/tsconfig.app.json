@@ -7,7 +7,12 @@
 
       "@nx/react/typings/cssmodule.d.ts",
       "@nx/react/typings/image.d.ts"
-    ]
+    ],
+    "paths": {
+      "@admin-hub/*": [
+        "./src/app/*"
+      ]
+    }
   },
   "exclude": [
     "jest.config.ts",
